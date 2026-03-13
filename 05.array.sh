@@ -8,3 +8,4 @@ echo "Value are 5 index value ${myArray[4]}"
 
 #How to get lenth of array
 echo " No. of value, lenth of an array is ${#myArray[*]}"
+echo "Value from index 7-8 ${myArray[*]:2:2}"
