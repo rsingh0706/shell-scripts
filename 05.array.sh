@@ -9,3 +9,8 @@ echo "Value are 5 index value ${myArray[4]}"
 #How to get lenth of array
 echo " No. of value, lenth of an array is ${#myArray[*]}"
 echo "Value from index 7-8 ${myArray[*]:2:2}"
+
+#Updating our array with new value
+myArray+=( New 30 40 )
+
+echo "Values of new array are ${myArray[*]}"
